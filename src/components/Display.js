@@ -3,14 +3,18 @@ import './Display.css'
 import { nanoid } from 'nanoid'
 import images from '../images'
 
+
+
 function Display() {
+    const [mark, setMark] = React.useState('Goro')
+
     const imageTile = images.map(item =>
         <div
             className='div-img'
             key={nanoid()}
         >
             <img
-                className={item.active ? 'pics-active' : 'pics-passive'}
+                className={item.id === mark ? 'pics-active' : 'pics-passive'}
                 src={item.src}
                 key={nanoid()}
                 alt={item.id}
@@ -18,6 +22,13 @@ function Display() {
         </div>
     )
 
+    window.addEventListener('keydown', (e) => {
+        if (e.code === 'ArrowRight') {
+            console.log('ArrowRight')
+        } else if (e.code === 'ArrowLeft') {
+            console.log('ArrowLeft')
+        }
+    })
 
     return (
         <div className='display-wrapper'>
