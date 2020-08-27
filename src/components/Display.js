@@ -22,7 +22,7 @@ function Display() {
         } else if (e.code === "ArrowLeft") {
             setMark(mark - 1);
         }
-        console.log(mark);
+        console.log('mark')
     });
 
     return <div className="display-wrapper">{imageTile}</div>;
