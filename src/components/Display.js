@@ -22,7 +22,6 @@ function Display() {
         } else if (e.code === "ArrowLeft") {
             setMark(mark - 1);
         }
-        alert('win')
     });
 
     return <div className="display-wrapper">{imageTile}</div>;
