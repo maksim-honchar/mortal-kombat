@@ -2,9 +2,11 @@
     text-align: center;
     background-color: gray;
     padding: 50px;
+    height: 100vh;
 }
 
 h2 {
     font-style: italic;
     color: white;
+    margin-bottom: 20px;
 }
