@@ -16,13 +16,20 @@ function Display() {
         </div>
     ))
 
-    window.addEventListener('keydown', (e) => {
+    const handleChange = (e) => {
         if (e.code === 'ArrowRight') {
             setMark(mark + 1)
         } else if (e.code === 'ArrowLeft') {
             setMark(mark - 1)
         }
-        console.log(mark)
+    }
+
+    React.useEffect(() => {
+        window.addEventListener('keydown', handleChange)
+
+        return () => {
+            window.removeEventListener('keydown', handleChange)
+        }
     })
 
     return (
