@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
-import Display from './components/Display'
-import Display2 from './components/Display_2'
+
+import StartPage from './components/Start'
+import FightPage from './components/Fight'
 
 function App() {
   const [player, setPlayer] = React.useState(0)
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className='wrapper'>
-      {view ? <Display2 player={player} /> : <Display display={display} />}
+      {view ? <FightPage player={player} /> : <StartPage display={display} />}
     </div>
   )
 }

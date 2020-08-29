@@ -2,7 +2,7 @@ import React from 'react'
 import images from '../images'
 import Icons from './Icons'
 
-function Display2(props) {
+function FightPage(props) {
 
     const randomPlayer = Math.floor(Math.random() * (images.length + 0))
 
@@ -20,4 +20,4 @@ function Display2(props) {
     )
 }
 
-export default Display2
+export default FightPage

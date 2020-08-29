@@ -2,7 +2,7 @@ import React from 'react'
 import './components.css'
 import images from '../images'
 
-function Display(props) {
+function StartPage(props) {
     const [mark, setMark] = React.useState(0)
 
     const imageTile = images.map(item => (
@@ -51,4 +51,4 @@ function Display(props) {
     )
 }
 
-export default Display
+export default StartPage
