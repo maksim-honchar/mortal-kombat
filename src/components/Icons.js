@@ -11,7 +11,7 @@ function Icons() {
     const dice = CUBES.map((item, index) =>
         <FontAwesomeIcon
             icon={darts.id === index ? CUBES[darts.number] : item}
-            size='3x'
+            size='5x'
         />
     )
 
@@ -50,7 +50,6 @@ function Icons() {
     console.log(darts)
     return (
         <div>
-            {/* <h2>icons</h2> */}
             <div className='cubes'>
                 {dice}
             </div>

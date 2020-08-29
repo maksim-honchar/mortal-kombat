@@ -1,6 +1,5 @@
 import React from 'react'
 import images from '../images'
-// import bigImages from '../big_images'
 import Icons from './Icons'
 
 function Display2(props) {
@@ -10,8 +9,10 @@ function Display2(props) {
     return (
         <div>
             <h2>BATTLE</h2>
-            <img src={images[props.player].src} alt={images.id} />
-            <img src={images[randomPlayer].src} alt={images.id} />
+            <div className="div-big-images">
+                <img src={images[props.player].src} alt={images.id} />
+                <img src={images[randomPlayer].src} alt={images.id} />
+            </div>
             <div>
                 <Icons />
             </div>

@@ -1,5 +1,5 @@
 .display-wrapper {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    display: flex;
    flex-wrap: wrap;
    width: 900px;
@@ -23,7 +23,21 @@
 
 .cubes {
     display: flex;
+    margin-top: 20px;
 }
+
+.div-big-images {
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.div-big-images > img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+
 
 
 

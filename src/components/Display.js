@@ -43,8 +43,12 @@ function Display(props) {
 
 
     return (
-        <div className='display-wrapper'>
-            {imageTile}
+        <div>
+            <h2>SELECT YOUR FIGHTER</h2>
+            <div className='display-wrapper'>
+
+                {imageTile}
+            </div>
         </div>
     )
 }
