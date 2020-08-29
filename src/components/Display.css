@@ -1,6 +1,8 @@
 .display-wrapper {
-    display: flex;
-    /* border: 1px solid red; */
+   border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   width: 900px;
 }
 
 .pics-active {
