@@ -11,7 +11,7 @@ function App() {
   function display(mark) {
     setPlayer(mark)
     setView(true)
-    // setTimeout(() => setView(false), 10000)
+    setTimeout(() => setView(false), 10000)
   }
 
   return (
