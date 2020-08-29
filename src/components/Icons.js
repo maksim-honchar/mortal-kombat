@@ -16,13 +16,23 @@ function Icons() {
     )
 
     function random() {
-        return Math.floor(Math.random() * (6 + 0))
+        return Math.floor(Math.random() * (CUBES.length + 0))
     }
 
 
     function handleChange(e) {
         if (e.code === 'KeyQ') {
             setDarts({ id: 0, number: random() })
+        } else if (e.code === 'KeyW') {
+            setDarts({ id: 1, number: random() })
+        } else if (e.code === 'KeyE') {
+            setDarts({ id: 2, number: random() })
+        } else if (e.code === 'KeyR') {
+            setDarts({ id: 3, number: random() })
+        } else if (e.code === 'KeyT') {
+            setDarts({ id: 4, number: random() })
+        } else if (e.code === 'KeyY') {
+            setDarts({ id: 5, number: random() })
         }
     }
 
@@ -40,7 +50,7 @@ function Icons() {
     console.log(darts)
     return (
         <div>
-            <h2>icons</h2>
+            {/* <h2>icons</h2> */}
             <div className='cubes'>
                 {dice}
             </div>

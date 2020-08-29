@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../images'
+// import bigImages from '../big_images'
 import Icons from './Icons'
 
 function Display2(props) {
