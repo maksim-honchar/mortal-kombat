@@ -3,6 +3,19 @@
    display: flex;
    flex-wrap: wrap;
    width: 900px;
+   margin-top: 100px;
+}
+
+.select-fighter {
+    font-style: italic;
+    color: white;
+    font-size: 3rem;
+}
+
+.fight {
+    font-style: italic;
+    color: rgb(201, 26, 26);
+    font-size: 9rem;
 }
 
 .pics-active {
@@ -10,7 +23,7 @@
     height: 150px; 
     object-fit: contain;
     padding: 10px;
-    border: 4px solid red;
+    border: 5px solid green;
 }
 
 .pics-passive {
@@ -18,12 +31,17 @@
     height: 150px; 
     object-fit: contain;
     padding: 10px;
-    border: 2px solid white;
+    border: 1px solid rgb(168, 168, 168);
 }
+
 
 .cubes {
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.div-img {
+    /* margin: 1px; */
 }
 
 .div-big-images {

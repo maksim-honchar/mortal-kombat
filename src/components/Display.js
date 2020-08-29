@@ -41,12 +41,10 @@ function Display(props) {
         }
     }, [handleChange])
 
-
     return (
         <div>
-            <h2>SELECT YOUR FIGHTER</h2>
+            <h2 className='select-fighter'>SELECT YOUR FIGHTER</h2>
             <div className='display-wrapper'>
-
                 {imageTile}
             </div>
         </div>

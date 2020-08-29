@@ -8,7 +8,7 @@ function Display2(props) {
 
     return (
         <div>
-            <h2>BATTLE</h2>
+            <h2 className='fight'>FIGHT!</h2>
             <div className="div-big-images">
                 <img src={images[props.player].src} alt={images.id} />
                 <img src={images[randomPlayer].src} alt={images.id} />
