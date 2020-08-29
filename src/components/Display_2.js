@@ -7,7 +7,7 @@ function Display2(props) {
     const randomPlayer = Math.floor(Math.random() * (images.length + 0))
 
     return (
-        <div>
+        <div className="display2-wrapper">
             <h2 className='fight'>FIGHT!</h2>
             <div className="div-big-images">
                 <img src={images[props.player].src} alt={images.id} />
