@@ -5,7 +5,8 @@ import Display2 from './components/Display_2'
 
 function App() {
   const [player, setPlayer] = React.useState(0)
-  const [view, setView] = React.useState(false)
+  // const [view, setView] = React.useState(false)
+  const [view, setView] = React.useState(true)
 
   function display(mark) {
     setPlayer(mark)

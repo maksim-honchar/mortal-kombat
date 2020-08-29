@@ -1,5 +1,5 @@
 import React from 'react'
-import './Display.css'
+import './components.css'
 import images from '../images'
 
 function Display(props) {
