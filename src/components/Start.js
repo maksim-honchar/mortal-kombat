@@ -23,13 +23,16 @@ function StartPage(props) {
     const handleChange = e => {
         if (e.code === 'Enter') {
             props.display(mark)
-        } else if (e.code === 'ArrowRight') {
+        } else if (e.code === 'ArrowRight' && mark !== images.length - 1) {
             setMark(mark + 1)
         } else if (e.code === 'ArrowLeft' && mark !== 0) {
             setMark(mark - 1)
+        } else if (e.code === 'ArrowDown' && mark < 15) {
+            setMark(mark + 5)
+        } else if (e.code === 'ArrowUp' && mark > 4) {
+            setMark(mark - 5)
         }
     }
-
 
 
 
