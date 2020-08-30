@@ -6,8 +6,8 @@ import FightPage from './components/Fight'
 
 function App() {
   const [player, setPlayer] = React.useState(0)
-  // const [view, setView] = React.useState(false)
-  const [view, setView] = React.useState(true)
+  const [view, setView] = React.useState(false)
+  // const [view, setView] = React.useState(true)
 
   function display(mark) {
     setPlayer(mark)
