@@ -18,4 +18,3 @@ You will also see any lint errors in the console.
 
 
 
-[![Run on Repl.it](https://repl.it/badge/github/maksim-honchar/mortal-kombat)](https://repl.it/github/maksim-honchar/mortal-kombat)
