@@ -37,11 +37,15 @@
 
 .cubes {
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
+    width: 500px;
+    border: 3px solid;
 }
 
-.div-img {
-    /* margin: 1px; */
+
+.div-icon {
+    border: 3px solid;
+   padding: 3px;
 }
 
 .div-big-images {

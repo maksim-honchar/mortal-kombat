@@ -6,36 +6,41 @@ const CUBES = [faDiceOne, faDiceTwo, faDiceThree, faDiceFour, faDiceFive, faDice
 
 
 function Icons() {
-    const [darts, setDarts] = React.useState({ id: 0, number: 0 })
-
-    const dice = CUBES.map((item, index) =>
-        <FontAwesomeIcon
-            icon={darts.id === index ? CUBES[darts.number] : item}
-            size='5x'
-        />
-    )
-
-    function random() {
-        return Math.floor(Math.random() * (CUBES.length + 0))
-    }
-
+    const [diceOne, setDiceOne] = React.useState(0)
+    const [diceTwo, setDiceTwo] = React.useState(0)
+    const [diceThree, setDiceThree] = React.useState(0)
+    const [diceFour, setDiceFour] = React.useState(0)
+    const [diceFive, setDiceFive] = React.useState(0)
+    const [diceSix, setDiceSix] = React.useState(0)
 
     function handleChange(e) {
-        if (e.code === 'KeyQ') {
-            setDarts({ id: 0, number: random() })
-        } else if (e.code === 'KeyW') {
-            setDarts({ id: 1, number: random() })
-        } else if (e.code === 'KeyE') {
-            setDarts({ id: 2, number: random() })
-        } else if (e.code === 'KeyR') {
-            setDarts({ id: 3, number: random() })
-        } else if (e.code === 'KeyT') {
-            setDarts({ id: 4, number: random() })
-        } else if (e.code === 'KeyY') {
-            setDarts({ id: 5, number: random() })
+        if (e.code === 'KeyQ' && diceOne < 5) {
+            setDiceOne(diceOne + 1)
+        } else if (e.code === 'KeyQ' && diceOne === 5) {
+            setDiceOne(0)
+        } else if (e.code === 'KeyW' && diceTwo < 5) {
+            setDiceTwo(diceTwo + 1)
+        } else if (e.code === 'KeyW' && diceTwo === 5) {
+            setDiceTwo(0)
+        } else if (e.code === 'KeyE' && diceThree < 5) {
+            setDiceThree(diceThree + 1)
+        } else if (e.code === 'KeyE' && diceThree === 5) {
+            setDiceThree(0)
+        } else if (e.code === 'KeyR' && diceFour < 5) {
+            setDiceFour(diceFour + 1)
+        } else if (e.code === 'KeyR' && diceFour === 5) {
+            setDiceFour(0)
+        } else if (e.code === 'KeyT' && diceFive < 5) {
+            setDiceFive(diceFive + 1)
+        } else if (e.code === 'KeyT' && diceFive === 5) {
+            setDiceFive(0)
+        } else if (e.code === 'KeyY' && diceSix < 5) {
+            setDiceSix(diceSix + 1)
+        } else if (e.code === 'KeyY' && diceSix === 5) {
+            setDiceSix(0)
         }
-    }
 
+    }
 
 
     React.useEffect(() => {
@@ -44,14 +49,45 @@ function Icons() {
         return () => {
             window.removeEventListener('keydown', handleChange)
         }
-    }, [handleChange, darts])
+    }, [handleChange])
 
-
-    console.log(darts)
     return (
-        <div>
-            <div className='cubes'>
-                {dice}
+        <div className='cubes'>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceOne]}
+                    size='5x'
+                />
+            </div>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceTwo]}
+                    size='5x'
+                />
+            </div>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceThree]}
+                    size='5x'
+                />
+            </div>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceFour]}
+                    size='5x'
+                />
+            </div>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceFive]}
+                    size='5x'
+                />
+            </div>
+            <div className='div-icon'>
+                <FontAwesomeIcon
+                    icon={CUBES[diceSix]}
+                    size='5x'
+                />
             </div>
         </div>
     )
@@ -60,4 +96,4 @@ function Icons() {
 export default Icons
 
 
-//  <FontAwesomeIcon icon={CUBES[dice]} size='3x'/> 
+
