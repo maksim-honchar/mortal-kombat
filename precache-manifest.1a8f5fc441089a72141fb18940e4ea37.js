@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "222f0c3ee0df1861fd8c7cd8e328e9de",
+    "revision": "42a1b796d63ceb64ccd77c41eca4cb7a",
     "url": "/mortal-kombat/index.html"
   },
   {
-    "revision": "1cf28f833627b73bd306",
+    "revision": "96d3c7654dc127e5e370",
     "url": "/mortal-kombat/static/css/main.ead3ca40.chunk.css"
   },
   {
-    "revision": "411c90bac362afa8453b",
-    "url": "/mortal-kombat/static/js/2.1e48afff.chunk.js"
+    "revision": "b728a487b03517bf6d87",
+    "url": "/mortal-kombat/static/js/2.efcc4ad5.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/mortal-kombat/static/js/2.1e48afff.chunk.js.LICENSE.txt"
+    "url": "/mortal-kombat/static/js/2.efcc4ad5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cf28f833627b73bd306",
-    "url": "/mortal-kombat/static/js/main.31578e6d.chunk.js"
+    "revision": "96d3c7654dc127e5e370",
+    "url": "/mortal-kombat/static/js/main.45b83f7a.chunk.js"
   },
   {
-    "revision": "0b24d7ef4154e4615c6e",
-    "url": "/mortal-kombat/static/js/runtime-main.8c49247d.js"
+    "revision": "a8a26bd757df2dec8e5c",
+    "url": "/mortal-kombat/static/js/runtime-main.e59ff8f6.js"
   },
   {
     "revision": "46266e9265493225770ac48bd70d1e0e",

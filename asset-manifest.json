@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mortal-kombat/static/css/main.ead3ca40.chunk.css",
-    "main.js": "/mortal-kombat/static/js/main.31578e6d.chunk.js",
-    "main.js.map": "/mortal-kombat/static/js/main.31578e6d.chunk.js.map",
-    "runtime-main.js": "/mortal-kombat/static/js/runtime-main.8c49247d.js",
-    "runtime-main.js.map": "/mortal-kombat/static/js/runtime-main.8c49247d.js.map",
-    "static/js/2.1e48afff.chunk.js": "/mortal-kombat/static/js/2.1e48afff.chunk.js",
-    "static/js/2.1e48afff.chunk.js.map": "/mortal-kombat/static/js/2.1e48afff.chunk.js.map",
+    "main.js": "/mortal-kombat/static/js/main.45b83f7a.chunk.js",
+    "main.js.map": "/mortal-kombat/static/js/main.45b83f7a.chunk.js.map",
+    "runtime-main.js": "/mortal-kombat/static/js/runtime-main.e59ff8f6.js",
+    "runtime-main.js.map": "/mortal-kombat/static/js/runtime-main.e59ff8f6.js.map",
+    "static/js/2.efcc4ad5.chunk.js": "/mortal-kombat/static/js/2.efcc4ad5.chunk.js",
+    "static/js/2.efcc4ad5.chunk.js.map": "/mortal-kombat/static/js/2.efcc4ad5.chunk.js.map",
     "index.html": "/mortal-kombat/index.html",
-    "precache-manifest.e014ef596f31eb2c74db677657d2dbfa.js": "/mortal-kombat/precache-manifest.e014ef596f31eb2c74db677657d2dbfa.js",
+    "precache-manifest.1a8f5fc441089a72141fb18940e4ea37.js": "/mortal-kombat/precache-manifest.1a8f5fc441089a72141fb18940e4ea37.js",
     "service-worker.js": "/mortal-kombat/service-worker.js",
     "static/css/main.ead3ca40.chunk.css.map": "/mortal-kombat/static/css/main.ead3ca40.chunk.css.map",
-    "static/js/2.1e48afff.chunk.js.LICENSE.txt": "/mortal-kombat/static/js/2.1e48afff.chunk.js.LICENSE.txt",
+    "static/js/2.efcc4ad5.chunk.js.LICENSE.txt": "/mortal-kombat/static/js/2.efcc4ad5.chunk.js.LICENSE.txt",
     "static/media/Baraka.png": "/mortal-kombat/static/media/Baraka.46266e92.png",
     "static/media/CassieCage.png": "/mortal-kombat/static/media/CassieCage.a94efb52.png",
     "static/media/ErronBlack.png": "/mortal-kombat/static/media/ErronBlack.9f3715be.png",
@@ -34,9 +34,9 @@
     "static/media/SubZero.png": "/mortal-kombat/static/media/SubZero.f4f73065.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c49247d.js",
-    "static/js/2.1e48afff.chunk.js",
+    "static/js/runtime-main.e59ff8f6.js",
+    "static/js/2.efcc4ad5.chunk.js",
     "static/css/main.ead3ca40.chunk.css",
-    "static/js/main.31578e6d.chunk.js"
+    "static/js/main.45b83f7a.chunk.js"
   ]
 }
